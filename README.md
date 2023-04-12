@@ -1,3 +1,4 @@
+
 # Excelerator: Use Snowflake in Excel
 
 Excelerator is an Excel Add-In to help you pull data from Snowflake into Excel and push new or updated data from Excel into Snowflake.
@@ -155,4 +156,4 @@ For any new columns, the data type needs to be manually specified by clicking th
 |:---------------------------|
 | Timestamps don’t handle anything less than seconds. To get around this, manually cast the time to a varchar in the SQL. |
 
-
+#*This repo was forked from  https://github.com/Snowflake-Labs/Excelerator.git to add multiquery functionality which did not exist*#
