@@ -11,7 +11,7 @@
 	<existingUserRole>, <database>, <schema>, <warehouse>
 	
 */
-
+ 
 -------------- Update this section -----------------------------------
 -- User name and role that the user will login with 
 set existingUserRole = '<existingUserRole>';

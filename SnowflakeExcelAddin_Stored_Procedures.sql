@@ -14,7 +14,7 @@
   1.1.1 - Added new Timestamp conversion type for Ryan T. WHEN DATE_STR RLIKE '\\d{8}\\s\\d{6}.\\d{3}' THEN TO_VARCHAR(TO_TIMESTAMP(DATE_STR, 'YYYYMMDD HH24MISS.FF'),'YYYY-MM-DD HH24:MI:SS.FF') 
   2.1.2 - Bug fix - issue when data types are provided but one is missing. Needed to set skip header = 2
 */
-
+ 
 
 --**************************  get_stored_proc_version_number  **************************
 create or replace procedure get_stored_proc_version_number ()
