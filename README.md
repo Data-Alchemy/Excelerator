@@ -102,6 +102,26 @@ You'll get results that look similar to this:
 
 Repeat as-needed to gather data from Snowflake into your Excel sheet.
 
+
+### *New* Execute all Queries
+Pull data into Excel by selecting the “Query" button. 
+A search dialog will open that allows you to select a database, schema and table in order to download data. You will need to save all your queries and rename them to what you want your sheet to be called  (For example a query to pull users data could be stored under Users). Going forward that tab will become the home for your query and every time you refresh it will be saved in that tab.
+
+<div class="note">
+
+**Note: Make sure your names are unique if not the last query run with a specific duplicate name will overwrite the previous run** 
+</div>
+
+Click the "Execute All" button to execute the query in Snowflake and pull down the result set.
+
+![Alt text](images/New%20Execute%20all%20button.png)
+
+You'll get results that look similar to this:
+
+![Alt text](images/excelerator_v2.gif))
+
+Repeat as-needed to gather data from Snowflake into your Excel sheet.
+
 ### Write Data to Snowflake
 
 To write data to Snowflake, click the "Upload" button in the ribbon.
